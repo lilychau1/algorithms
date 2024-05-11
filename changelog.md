@@ -1,5 +1,9 @@
 # Changelog
 
+## 2024-05-11
+### Fixed
+- Optimised merge sort 
+
 ## 2024-05-07
 ### Added
 - Ch.2 code examples for bubble sort, merge sort with inversion count and selection sort and updated test notebook
