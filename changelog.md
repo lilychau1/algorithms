@@ -2,7 +2,7 @@
 
 ## 2024-05-11
 ### Fixed
-- Optimised merge sort 
+- Optimised merge sort, merge sort with inversion count and bubble sort
 
 ## 2024-05-07
 ### Added

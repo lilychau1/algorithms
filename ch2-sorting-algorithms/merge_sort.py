@@ -1,4 +1,3 @@
-import math
 def merge_sort_recursive(arr: list, start: int, end: int) -> list:
     if start < end: 
         mid = (start + end) // 2

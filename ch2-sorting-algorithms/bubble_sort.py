@@ -1,8 +1,11 @@
 def bubble_sort(arr: list) -> list:
-    for i in range(0, len(arr)):
-        for j in range(len(arr) - 1, i, -1): 
-            if arr[j] < arr[i]:
-                min = arr[j]
-                arr[j] = arr[i]
-                arr[i] = min
+    n = len(arr)
+    for i in range(n):
+        swapped = False
+        for j in range(n - 1, i, -1): 
+            if arr[j] < arr[j - 1]:
+                arr[j], arr[j - 1] = arr[j - 1], arr[j]
+                swapped = True
+        if not swapped:
+            break
     return arr
